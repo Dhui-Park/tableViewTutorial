@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DefaultListVC: UIViewController {
     
     
     @IBOutlet weak var myTableView: UITableView!
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 }
 
 //MARK: - Data Source 관련
-extension ViewController: UITableViewDataSource {
+extension DefaultListVC: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "헤더: " + dummyDataList[section].title
@@ -59,13 +59,14 @@ extension ViewController: UITableViewDataSource {
         
         cell.textLabel?.text = cellData.title
         cell.detailTextLabel?.text = cellData.body
+        cell.detailTextLabel?.numberOfLines = 0
         
         return cell
     }
 }
 
 //MARK: - Delegate 관련
-extension ViewController: UITableViewDelegate {
+extension DefaultListVC: UITableViewDelegate {
     // UITableViewDelegate protocol의 function (optional임)
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(#fileID, #function, #line, "- indexPath: \(indexPath.row)")

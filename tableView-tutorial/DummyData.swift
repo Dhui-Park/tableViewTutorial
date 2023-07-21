@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Fakery
 
 struct DummySection {
     let uuid: UUID
@@ -35,8 +36,15 @@ struct DummyData {
     
     init() {
         self.uuid = UUID()
-        self.title = "타이틀: \(uuid)"
-        self.body = "바디: \(uuid)"
+        
+        let faker = Faker(locale: "ko")
+
+        let firstName = faker.name.firstName()
+        let lastName = faker.name.lastName()
+        let body = faker.lorem.paragraphs(amount: 10)
+        
+        self.title = "타이틀: \(lastName)\(firstName)"
+        self.body = "바디: \(body)"
     }
     
     // static이라 메모리에 올리지 않고도 사용 가능.

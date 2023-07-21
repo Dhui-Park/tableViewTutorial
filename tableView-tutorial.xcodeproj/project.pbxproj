@@ -9,23 +9,38 @@
 /* Begin PBXBuildFile section */
 		B7A0DC9C2A69C72B00B4EE5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DC9B2A69C72B00B4EE5B /* AppDelegate.swift */; };
 		B7A0DC9E2A69C72B00B4EE5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DC9D2A69C72B00B4EE5B /* SceneDelegate.swift */; };
-		B7A0DCA02A69C72B00B4EE5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DC9F2A69C72B00B4EE5B /* ViewController.swift */; };
+		B7A0DCA02A69C72B00B4EE5B /* DefaultListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DC9F2A69C72B00B4EE5B /* DefaultListVC.swift */; };
 		B7A0DCA32A69C72B00B4EE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A0DCA12A69C72B00B4EE5B /* Main.storyboard */; };
 		B7A0DCA52A69C72C00B4EE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A0DCA42A69C72C00B4EE5B /* Assets.xcassets */; };
 		B7A0DCA82A69C72C00B4EE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A0DCA62A69C72C00B4EE5B /* LaunchScreen.storyboard */; };
 		B7A0DCB02A6A636900B4EE5B /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DCAF2A6A636900B4EE5B /* DummyData.swift */; };
+		B7A0DCB32A6A6FD200B4EE5B /* Fakery in Frameworks */ = {isa = PBXBuildFile; productRef = B7A0DCB22A6A6FD200B4EE5B /* Fakery */; };
+		B7A0DCB52A6A72C200B4EE5B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DCB42A6A72C200B4EE5B /* MainVC.swift */; };
+		B7A0DCB72A6A75CC00B4EE5B /* StoryboardListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DCB62A6A75CC00B4EE5B /* StoryboardListVC.swift */; };
+		B7A0DCB92A6A765100B4EE5B /* NibListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DCB82A6A765100B4EE5B /* NibListVC.swift */; };
+		B7A0DCBB2A6A767200B4EE5B /* CodeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0DCBA2A6A767200B4EE5B /* CodeListVC.swift */; };
+		B7A0DCBD2A6AB6D800B4EE5B /* StoryboardList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A0DCBC2A6AB6D800B4EE5B /* StoryboardList.storyboard */; };
+		B7A0DCC12A6AB98600B4EE5B /* NibList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A0DCC02A6AB98600B4EE5B /* NibList.storyboard */; };
+		B7A0DCC32A6ABCE300B4EE5B /* DefaultList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A0DCC22A6ABCE300B4EE5B /* DefaultList.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7A0DC982A69C72B00B4EE5B /* tableView-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableView-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A0DC9B2A69C72B00B4EE5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7A0DC9D2A69C72B00B4EE5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7A0DC9F2A69C72B00B4EE5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7A0DC9F2A69C72B00B4EE5B /* DefaultListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultListVC.swift; sourceTree = "<group>"; };
 		B7A0DCA22A69C72B00B4EE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7A0DCA42A69C72C00B4EE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A0DCA72A69C72C00B4EE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7A0DCA92A69C72C00B4EE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7A0DCAF2A6A636900B4EE5B /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		B7A0DCB42A6A72C200B4EE5B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B7A0DCB62A6A75CC00B4EE5B /* StoryboardListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardListVC.swift; sourceTree = "<group>"; };
+		B7A0DCB82A6A765100B4EE5B /* NibListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibListVC.swift; sourceTree = "<group>"; };
+		B7A0DCBA2A6A767200B4EE5B /* CodeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeListVC.swift; sourceTree = "<group>"; };
+		B7A0DCBC2A6AB6D800B4EE5B /* StoryboardList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardList.storyboard; sourceTree = "<group>"; };
+		B7A0DCC02A6AB98600B4EE5B /* NibList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NibList.storyboard; sourceTree = "<group>"; };
+		B7A0DCC22A6ABCE300B4EE5B /* DefaultList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DefaultList.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A0DCB32A6A6FD200B4EE5B /* Fakery in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +76,15 @@
 			children = (
 				B7A0DC9B2A69C72B00B4EE5B /* AppDelegate.swift */,
 				B7A0DC9D2A69C72B00B4EE5B /* SceneDelegate.swift */,
-				B7A0DC9F2A69C72B00B4EE5B /* ViewController.swift */,
+				B7A0DC9F2A69C72B00B4EE5B /* DefaultListVC.swift */,
+				B7A0DCB42A6A72C200B4EE5B /* MainVC.swift */,
+				B7A0DCB62A6A75CC00B4EE5B /* StoryboardListVC.swift */,
+				B7A0DCB82A6A765100B4EE5B /* NibListVC.swift */,
+				B7A0DCBA2A6A767200B4EE5B /* CodeListVC.swift */,
 				B7A0DCAF2A6A636900B4EE5B /* DummyData.swift */,
+				B7A0DCC22A6ABCE300B4EE5B /* DefaultList.storyboard */,
+				B7A0DCBC2A6AB6D800B4EE5B /* StoryboardList.storyboard */,
+				B7A0DCC02A6AB98600B4EE5B /* NibList.storyboard */,
 				B7A0DCA12A69C72B00B4EE5B /* Main.storyboard */,
 				B7A0DCA42A69C72C00B4EE5B /* Assets.xcassets */,
 				B7A0DCA62A69C72C00B4EE5B /* LaunchScreen.storyboard */,
@@ -86,6 +109,9 @@
 			dependencies = (
 			);
 			name = "tableView-tutorial";
+			packageProductDependencies = (
+				B7A0DCB22A6A6FD200B4EE5B /* Fakery */,
+			);
 			productName = "tableView-tutorial";
 			productReference = B7A0DC982A69C72B00B4EE5B /* tableView-tutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +140,9 @@
 				Base,
 			);
 			mainGroup = B7A0DC8F2A69C72B00B4EE5B;
+			packageReferences = (
+				B7A0DCB12A6A6FD200B4EE5B /* XCRemoteSwiftPackageReference "Fakery" */,
+			);
 			productRefGroup = B7A0DC992A69C72B00B4EE5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +157,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A0DCC32A6ABCE300B4EE5B /* DefaultList.storyboard in Resources */,
 				B7A0DCA82A69C72C00B4EE5B /* LaunchScreen.storyboard in Resources */,
+				B7A0DCBD2A6AB6D800B4EE5B /* StoryboardList.storyboard in Resources */,
 				B7A0DCA52A69C72C00B4EE5B /* Assets.xcassets in Resources */,
+				B7A0DCC12A6AB98600B4EE5B /* NibList.storyboard in Resources */,
 				B7A0DCA32A69C72B00B4EE5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A0DCB02A6A636900B4EE5B /* DummyData.swift in Sources */,
-				B7A0DCA02A69C72B00B4EE5B /* ViewController.swift in Sources */,
+				B7A0DCB52A6A72C200B4EE5B /* MainVC.swift in Sources */,
+				B7A0DCB92A6A765100B4EE5B /* NibListVC.swift in Sources */,
+				B7A0DCBB2A6A767200B4EE5B /* CodeListVC.swift in Sources */,
+				B7A0DCA02A69C72B00B4EE5B /* DefaultListVC.swift in Sources */,
+				B7A0DCB72A6A75CC00B4EE5B /* StoryboardListVC.swift in Sources */,
 				B7A0DC9C2A69C72B00B4EE5B /* AppDelegate.swift in Sources */,
 				B7A0DC9E2A69C72B00B4EE5B /* SceneDelegate.swift in Sources */,
 			);
@@ -362,6 +398,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7A0DCB12A6A6FD200B4EE5B /* XCRemoteSwiftPackageReference "Fakery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vadymmarkov/Fakery";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7A0DCB22A6A6FD200B4EE5B /* Fakery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7A0DCB12A6A6FD200B4EE5B /* XCRemoteSwiftPackageReference "Fakery" */;
+			productName = Fakery;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7A0DC902A69C72B00B4EE5B /* Project object */;
 }
